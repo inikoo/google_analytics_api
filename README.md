@@ -1,10 +1,13 @@
-# google_analytics_api
-Google analytics api (PHP)
+# google_api
+Google Analytics api (PHP)
 
 
-To run:
+Google Search Console api (PHP)
 
-pattern:  php report.php --display-- --view-- --date-- --metrics--
+
+To run Google Analytics:
+
+pattern:  php ga.api.php --display-- --view-- --date-- --metrics--
 
 eg.
 
@@ -40,3 +43,10 @@ at least one metrics is required (eg. pageviews, pageValue)
 list of metrics can be found in following link:
 
 https://developers.google.com/analytics/devguides/reporting/core/dimsmets
+
+
+To run Google Search Console:
+
+pattern:  php sc.api.php
+
+*note:will* *update* *more* *features* _soon_

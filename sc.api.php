@@ -20,19 +20,19 @@ $webmastersService = new Google_Service_Webmasters($client);
 
 $query = new Google_Service_Webmasters_SearchAnalyticsQueryRequest();
 $query->setDimensions(array('page'));
-$query->setStartDate('2019-03-01');
+$query->setStartDate('2019-04-01');
 $query->setEndDate('2019-04-02');
 
-$filter = new Google_Service_Webmasters_ApiDimensionFilter();
-/*$filter->setDimension('query');
+/*$filter = new Google_Service_Webmasters_ApiDimensionFilter();
+$filter->setDimension('query');
 $filter->setOperator('equals');
-$filter->setExpression('w');*/
+$filter->setExpression('w');
 $filter->setDimension("device");
 $filter->setExpression("MOBILE");
 
 $filterGroup = new Google_Service_Webmasters_ApiDimensionFilterGroup();
 $filterGroup->setFilters(array($filter));
-$query->setDimensionFilterGroups(array($filterGroup));
+$query->setDimensionFilterGroups(array($filterGroup));*/
 
 $response = $webmastersService->searchanalytics->query('https://www.awgifts.eu/', $query);
 $Mask = "|%-50s |%-30s |%-30s |%-30s |%-30s";
