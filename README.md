@@ -47,6 +47,31 @@ https://developers.google.com/analytics/devguides/reporting/core/dimsmets
 
 To run Google Search Console:
 
-pattern:  php sc.api.php
+pattern:  php sc.api.php --property-- --date-- --dimensions--
+
+eg.
+
+php report.php https://www.example.com 2019-01-01 page
+
+php report.php https://www.example.com 2019-01-01:2019-01-02 page
+
+--property--
+
+is the website
+
+--date--
+
+date can be range (separate by ":" without space) or one date
+
+date should be in following format (YYYY-MM-DD)
+
+--dimensions--
+
+at least one dimensions is required (eg. page, query)
+
+list of dimensions can be found in following link:
+
+https://developers.google.com/analytics/devguides/reporting/core/dimsmets
+
 
 *note:will* *update* *more* *features* _soon_

@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8418cf-ee0b-4ff2-8c17-82b18cde5fea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/AccessToken/Revoke.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/AccessToken/Verify.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/AuthHandler/AuthHandlerFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/AuthHandler/Guzzle5AuthHandler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/AuthHandler/Guzzle6AuthHandler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Client.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Collection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Http/Batch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Http/MediaFileUpload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Http/REST.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Service/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Service/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Service/Resource.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Task/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Task/Retryable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Task/Runner.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/Utils/UriTemplate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-api-php-client/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screport.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc.api.php" beforeDir="false" afterPath="$PROJECT_DIR$/sc.api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +19,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ga.api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540" />
           </provider>
         </entry>
       </file>
@@ -62,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="228">
-                <caret line="51" column="37" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="37" />
+              <first_editor relative-caret-position="668">
+                <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -73,8 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sc.api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="50" />
+            <state relative-caret-position="540">
+              <caret line="86" column="67" lean-forward="true" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ga.api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -111,6 +87,7 @@
         <option value="$PROJECT_DIR$/table.php" />
         <option value="$PROJECT_DIR$/report.php" />
         <option value="$PROJECT_DIR$/ga.api.php" />
+        <option value="$PROJECT_DIR$/sc.api.php" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -196,15 +173,16 @@
       <workItem from="1554342762251" duration="20003000" />
       <workItem from="1554375893469" duration="3393000" />
       <workItem from="1554382429272" duration="8711000" />
-      <workItem from="1554427800101" duration="5166000" />
+      <workItem from="1554427800101" duration="13760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44914000" />
+    <option name="totallyTimeSpent" value="53508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2048" height="1074" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1028971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -219,7 +197,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4995005" visible="true" weight="0.6084656" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4995005" visible="true" weight="0.031746034" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004995" side_tool="true" weight="0.7645195" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -311,28 +289,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="50" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ga.api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
+        <state relative-caret-position="825">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="86" column="67" lean-forward="true" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="67" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="51" column="37" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="37" />
+          <first_editor relative-caret-position="668">
+            <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
