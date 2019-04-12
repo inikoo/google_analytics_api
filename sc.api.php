@@ -85,10 +85,21 @@ $filterGroup->setFilters(array($filter));
 $query->setDimensionFilterGroups(array($filterGroup));*/
 
 $response = $webmastersService->searchanalytics->query($au_property, $query);
-$Mask = "|%-50s |%-30s |%-30s |%-30s |%-30s";
+/*$Mask = "|%-50s |%-30s |%-30s |%-30s |%-30s";
 printf($Mask ,'keys', 'impressions', 'clicks', 'ctr' ,'position');
 printf("|\n");
 foreach ($response->rows as $r) {
     printf($Mask ,$r->keys[0] ,$r->impressions ,$r->clicks ,$r->ctr , $r->position );
     printf("|\n");
 }
+
+$gaRowCount = $response[0]->getRowCount();
+$gaToken = $response[0]->getNextPageToken();
+
+printf($gaRowCount."\n" );
+printf($gaToken."|\n");*/
+
+
+/*$row_count += count($response->rows);*/
+var_dump(count($response->rows));
+/*var_dump($response[0]->rows->startDate);*/

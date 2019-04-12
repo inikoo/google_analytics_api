@@ -96,6 +96,7 @@ function getReport($analytics) {
     $request->setViewId($VIEW_ID);
     $request->setDateRanges($dateRange);
     $request->setDimensions(array($pagePath));
+    $request->setPageToken('2000');
     $request->setMetrics(array($pageviews,$pageValue,$users,$sessions));
 
     $body = new Google_Service_AnalyticsReporting_GetReportsRequest();
@@ -168,12 +169,18 @@ function printResults_t($reports) {
     }
 }
 function printResults_d($reports) {
-        $rows = $reports[0]->getData()->getRows();
-        foreach ($rows as $r) {
-            $dimensions = $r->getDimensions();
-            $metrics = $r->getMetrics();
-            $values = $metrics[0]->getValues();
-            printf($dimensions[0]."  |".$values[0]."  | ". $values[1]."  | ".$values[2]."  | ".$values[3]."  | ");
-            printf("\n");
-        }
+    /*        $rows = $reports[0]->getData()->getRows();
+            foreach ($rows as $r) {
+                $dimensions = $r->getDimensions();
+                $metrics = $r->getMetrics();
+                $values = $metrics[0]->getValues();
+                printf($dimensions[0]."  |".$values[0]."  | ". $values[1]."  | ".$values[2]."  | ".$values[3]."  | ");
+                printf("\n");
+        }*/
+
+    /*var_dump($reports[0]->getNextPageToken()->getRows());*/
+    $PageToken = $reports[0]->getData()->getRowCount();
+    /*print_r($PageToken);*/
+    var_dump($PageToken);
+
 }
